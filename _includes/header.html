@@ -1,0 +1,20 @@
+<!-- Header -->
+<header id="header" class="skel-layers-fixed">
+    
+    <nav id="nav">
+        <ul>
+            <li><a href="{{ site.baseurl }}/">Home</a></li>
+            <li><a href="{{ site.baseurl }}/Research.html">Research</a></li>
+            <li><a href="{{ site.baseurl }}/Music.html">Music</a></li>
+            <li><a href="{{ site.baseurl }}/Other.html">Other</a></li>
+            <li><a href="{{ site.baseurl }}/CV.html">CV</a></li>
+            <li><a href="{{ site.baseurl }}/Contact.html">Contact</a></li>
+            {% for page in site.pages %}
+                  {% if page.title %}
+                    <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                  {% endif %}
+            {% endfor %}
+            
+        </ul>
+    </nav>
+</header>
