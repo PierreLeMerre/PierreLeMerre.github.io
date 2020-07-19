@@ -3,8 +3,8 @@ title: Pierre Le Merre
 email: pierrepierrepierre.lemerre@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Personal website of Pierre Le Merre
-baseurl: "/PierreLeMerre/" # the subpath of your site, e.g. /blog/
-url: "PierreLeMerre.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://PierreLeMerre.github.io" # the base hostname & protocol for your site
 twitter_username: Pierre_Le_Merre
 github_username:  PierreLeMerre
 
