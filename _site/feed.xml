@@ -4,20 +4,20 @@
     <title>Pierre Le Merre</title>
     <description>Personal website of Pierre Le Merre
 </description>
-    <link>http://localhost:4000/PierreLeMerre/</link>
-    <atom:link href="http://localhost:4000/PierreLeMerre/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sun, 19 Jul 2020 23:35:30 +0200</pubDate>
-    <lastBuildDate>Sun, 19 Jul 2020 23:35:30 +0200</lastBuildDate>
-    <generator>Jekyll v3.8.7</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Tue, 08 Sep 2020 21:37:02 +0200</pubDate>
+    <lastBuildDate>Tue, 08 Sep 2020 21:37:02 +0200</lastBuildDate>
+    <generator>Jekyll v3.9.0</generator>
     
       <item>
         <title>Cloud people</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/PierreLeMerre/images/cloud foresft.jpg&quot; class=&quot;fit image&quot; /&gt;
+        <description>&lt;p&gt;&lt;img src=&quot;/images/cloud foresft.jpg&quot; class=&quot;fit image&quot; /&gt;
 Cloud people is a musical project originating from french countryside landscapes merging acoustic and electronic instruments.&lt;/p&gt;
 </description>
         <pubDate>Sat, 11 Jul 2020 00:00:00 +0200</pubDate>
-        <link>http://localhost:4000/PierreLeMerre/2020/07/11/Cloud-People.html</link>
-        <guid isPermaLink="true">http://localhost:4000/PierreLeMerre/2020/07/11/Cloud-People.html</guid>
+        <link>http://localhost:4000/2020/07/11/Cloud-People.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2020/07/11/Cloud-People.html</guid>
         
         
       </item>
