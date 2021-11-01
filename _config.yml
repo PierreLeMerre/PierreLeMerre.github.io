@@ -8,6 +8,12 @@ url: "https://www.pierrelemerre.com/" # the base hostname & protocol for your si
 twitter_username: Pierre_Le_Merre
 github_username:  PierreLeMerre
 
+# for localhost, uncomment
+# Configuration file: /Users/pierre/Documents/Github/PierreLeMerre.github.io/_config.yml
+# source: /Users/pierre/Documents/Github/PierreLeMerre.github.io/
+# destination: /Users/pierre/Documents/Github/PierreLeMerre.github.io/_site
+# plugins_dir: /Users/pierre/Documents/Github/PierreLeMerre.github.io/_plugins
+
 source:      .
 destination: ./_site
 plugins_dir: ./_plugins
