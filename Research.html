@@ -116,6 +116,20 @@ layout: default
 
             <p>The full database table can be downloaded here as an <a href="{{ site.baseurl }}/images/Table1-Database.xls">Excel</a> or <a href="{{ site.baseurl }}/images/Table1-Database.csv">csv</a> file.</p>
 
+            <p>3D visualisation</p>
+
+            <p>Here is an attempt of 3D visualisation of the database using plotly. Some improvements are still required. The Task type and Sensory Modality parameters are displayed as continuous variables although they are discrete variables. You can mouse over the dots in the scatter plot to see from which study is the data ONLY if you have already scrolled within the brain mesh (plotly feature). We hope to improve this 3D visualisation with time.</p>
+
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://www.pierrelemerre.com/Plotly/Meta_analysis/Meta_analysis.html" width="100%" height="800"></iframe>
+
+             <p>Limitations </p>
+
+            <p>The CCFv3 version of the Allen Atlas is a 10um voxel resolution space and our analysis using this Atlas has some limitations. We generated 3D meshes for the brain outline, for each PFC region (MOs, ACA, PL, ILA, ORBm, ORBvl and ORBl) and for the PFC sudivisions described in the section of our Perspective “Parcellations of the PFC” (dmPFC, vmPFC and vlPFC) by using the MATLAB “isosurface.m” function (see folder Brain_meshes). To detect in which Allen PFC region each publication was peformed we used the “inpolyhedron.m” function (Copyright © 2015, Sven Holcombe). The thickness of the borders in the actual version of the CCFv3 is around 30um (3 voxels). As a result some triplet of coordinates are allocated to 2 regions while performing our “inpolyhedron.m” detection procedure. We inspected manually each triplet of coordinates whithin its respective ARA plate (see folder AllenAtlasLocationCCFv3_individualstudies) and visually assesed for these ambiguous cases to which Allen PFC region they belong to. Our level of incertitude regarding PFC region assignment needs to be put into perspective because, as accurate as we can be as experimenters, the provided stereotaxic coordinates in every publication are only averaged values reflecting the mean location of the targetted brain structures. This experimental incertitude is by itself an important limitation of our analysis and needs to be taken into consideration. </p>
+
+            <p>Source </p>
+
+            <p>2015 Allen Institute for Brain Science. Allen Mouse Brain Atlas (2015) with region annotations (2017). </p>
+
         </section>
 
         
