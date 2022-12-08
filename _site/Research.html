@@ -173,6 +173,38 @@
 
             <p>As one of the classical technique utilized in neuroscience, I use optogenetics manipulations to interrogate the role of the prefrontal regions and cell types of interest. I have principaly used the optogenetic approach to photoinhibit cortical regions and to optotag neuronal populations of interest.</p>
 
+            <p>                                
+                <a href="#" class="image fit"><img src="images/opto.png" alt=""/></a>
+            </p>
+
+        </section>
+
+          <div class="container">
+        <section>
+            <h2>Research Synthesis</h2>
+
+            <p>The prefrontal cortex has been ascribed many functions. We have summarized the last decade of mouse PFC research in a recent research synthesis. The data and methodology used to perform the functional research synthesis presented in the figure 3 of our perspective article: <a href="https://www.cell.com/neuron/fulltext/S0896-6273(21)00205-1?_returnURL=https%3A%2F%2Flinkinghub.elsevier.com%2Fretrieve%2Fpii%2FS0896627321002051%3Fshowall%3Dtrue">The mouse prefrontal cortex: Unity in diversity.</a> The code used to generate the figures can be found on this <a href="https://github.com/PierreLeMerre/MousePFC_ResearchSynthesis">github repository</a></p>
+
+            <p>Database</p>
+
+            <p>The database used to perform our research synthesis is available as a table. This table has the following columns: the year of the study, the short publication reference, the PFC region name used in the original publication, the inactivation method used, the stereotaxic triplet provided in the original article. The averaged coordinates used for the 3D plot into the Allen reference Atlas (ARA) CCFv3, the correction applied to the DV value to translate it into the ARA (see also below), the 3 scores; complexity index, sensory modality and task type, obtained for every publication, 7 logical values (in MOs, in ACA, in PL, in ILA, in ORBm, in ORBvl and in ORBl) indicating in which PFC region the study is found when plotted into the ARA CCFv3 with our method and the name of the Allen PFC region containing the stereotaxic triplet provided in the original publication.</p>
+
+            <p>The full database table can be downloaded here as an <a href="/images/Table1-Database.xls">Excel</a> or <a href="/images/Table1-Database.csv">csv</a> file.</p>
+
+            <p>3D visualisation</p>
+
+            <p>Here is an attempt of 3D visualisation of the database using plotly. Some improvements are still required. The Task type and Sensory Modality parameters are displayed as continuous variables although they are discrete variables. You can mouse over the dots in the scatter plot to see from which study is the data ONLY if you have already scrolled within the brain mesh (plotly feature). We hope to improve this 3D visualisation with time.</p>
+
+            <iframe id="igraph" scrolling="no" style="border:none;" seamless="seamless" src="https://www.pierrelemerre.com/Plotly/Meta_analysis/Meta_analysis.html" width="100%" height="800"></iframe>
+
+             <p>Limitations </p>
+
+            <p>The CCFv3 version of the Allen Atlas is a 10um voxel resolution space and our analysis using this Atlas has some limitations. We generated 3D meshes for the brain outline, for each PFC region (MOs, ACA, PL, ILA, ORBm, ORBvl and ORBl) and for the PFC sudivisions described in the section of our Perspective “Parcellations of the PFC” (dmPFC, vmPFC and vlPFC) by using the MATLAB “isosurface.m” function (see folder Brain_meshes). To detect in which Allen PFC region each publication was peformed we used the “inpolyhedron.m” function (Copyright © 2015, Sven Holcombe). The thickness of the borders in the actual version of the CCFv3 is around 30um (3 voxels). As a result some triplet of coordinates are allocated to 2 regions while performing our “inpolyhedron.m” detection procedure. We inspected manually each triplet of coordinates whithin its respective ARA plate (see folder AllenAtlasLocationCCFv3_individualstudies) and visually assesed for these ambiguous cases to which Allen PFC region they belong to. Our level of incertitude regarding PFC region assignment needs to be put into perspective because, as accurate as we can be as experimenters, the provided stereotaxic coordinates in every publication are only averaged values reflecting the mean location of the targetted brain structures. This experimental incertitude is by itself an important limitation of our analysis and needs to be taken into consideration. </p>
+
+            <p>Source </p>
+
+            <p>2015 Allen Institute for Brain Science. Allen Mouse Brain Atlas (2015) with region annotations (2017). </p>
+
         </section>
 
         
