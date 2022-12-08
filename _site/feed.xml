@@ -6,9 +6,21 @@
 </description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 08 Dec 2022 23:00:06 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Dec 2022 23:00:06 +0100</lastBuildDate>
+    <pubDate>Thu, 08 Dec 2022 23:58:04 +0100</pubDate>
+    <lastBuildDate>Thu, 08 Dec 2022 23:58:04 +0100</lastBuildDate>
     <generator>Jekyll v3.9.0</generator>
+    
+      <item>
+        <title>Teppish people</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/logo_teppish.png&quot; class=&quot;fit image&quot; /&gt;
+Teppish people is a downtempo musical crew organizing parties and releasing cool mixes.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 08 Dec 2022 00:00:00 +0100</pubDate>
+        <link>http://localhost:4000/2022/12/08/Teppish-People.html</link>
+        <guid isPermaLink="true">http://localhost:4000/2022/12/08/Teppish-People.html</guid>
+        
+        
+      </item>
     
       <item>
         <title>Cloud people</title>
